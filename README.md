@@ -1,35 +1,34 @@
-# Cisco-Network-Projects
-Compilation of personal experimentation and checkpoint projects
+# Cisco Network Projects
+Compilation of personal experimentation and checkpoint projects.
 
-## Configure a Wireless Router and Client.pka
-This projects is one of the Cisco Self-Checkpoints on the Networking Basics Modules. The project overall objective is to set up a home router.
+---
 
-### The specific skills required:
-- Understanding the appropriate cables to connect to appropriate port. Emphasizing in the usage of Ethernet LAN Cables to appropriate ports (i.e. Internet Ports, and Ethernet Ports), as well Coaxical Cables.
-- Understanding the Configuration of the Wireless Router using one of the devices connected, in this case, the Work PC, which perform changes on the routers using the Default Gateway address. Utilizing the address, configuration to the router is possible through Webpage, by inputting the address into the web address.
-- Performing objectives above allow the connection of end-devices that utilizes wireless connection, and utilize DHCP IP address assignment. Configurations allow changes to number of allowed end-devices connected, configuring the wireless router name, and password. As well, configuring the Public Password for end-devices, and specific configuration for the admin password.
+## Configure a Wireless Router and Client (.pka)
+This project is one of the Cisco Self-Checkpoints from the Networking Basics Modules. The overall objective of the project is to set up a home router.
 
+### Key Skills Required:
+*   **Physical Connectivity:** Understanding the appropriate cables to connect to the appropriate ports, emphasizing the use of Ethernet LAN cables for specific ports (i.e., Internet Ports and Ethernet Ports) as well as Coaxial cables.
+*   **Router Configuration:** Understanding the configuration of the Wireless Router using a connected device (the Work PC) to perform changes via the Default Gateway address. Utilizing this address, configuration of the router is accessible through a web browser page interface.
+*   **Wireless & DHCP Setup:** Allowing the connection of end-devices via wireless connections and utilizing DHCP IP address assignment. Configurations include modifying the number of allowed end-devices, changing the wireless router name (SSID), setting up a public password for end-devices, and configuring a specific admin password.
 
+---
 
-## Subentting Project
-This project is my own personal practical hands-on derived from the theoritical framework of Subnetting, and understanding the common failure that led to the initial error of the project.
+## Subnetting Project
+This project is a personal, practical, hands-on lab derived from the theoretical framework of subnetting, focusing on diagnosing and understanding the common failures that led to the initial errors in the project.
 
-### From this specific program, it required:
-- Understanding the basic concept of subnetting using router
-- Understanding how routing works and forwarding messages of the OSI Reference Layer 3 (Network)
-- Understanding the Encapsulation of Layer 2 MAC Address, for local network
-- Understanding the bsaic concept of ARP (Address Resolution Protocol) for IPv4 address.
+### Core Concepts Covered:
+*   Understanding the basic concept of subnetting using a router.
+*   Understanding how routing works and how messages are forwarded at the OSI Reference Model Layer 3 (Network Layer).
+*   Understanding the encapsulation of Layer 2 MAC addresses for local networks.
+*   Understanding the basic concept of ARP (Address Resolution Protocol) for IPv4 addresses.
 
-### Obstacles that I have encountered on the way:
-- Concept of dividing a local network into two seperate subnet through the use of router and subnetting
-  The common problem I face in this project beforehand was the concept of dividing the network. At first, I thought I would need two routers to separate it, but turns out I don't. This was the obstacle I had experienced, a minor setback in the design of the network.
-- Concept of ARP Table Formation
-  This is the major difficulty that I had faced all this time in building the local network. Beforehand, I wasn't successful in routing and forwarding packages from one local network to another. I initially thought that the problem was the configuration, turns out it was not other than the formation of the ARP table.
+### Obstacles Encountered:
+*   **Dividing a Local Network into Two Separate Subnets:** 
+    The common problem faced beforehand was the concept of dividing the network. At first, I thought I would need two separate routers to isolate them, but it turns out I do not. This was a minor design setback in the initial phase.
+*   **ARP Table Formation:** 
+    This was the major difficulty faced while building the local network. Initially, routing and forwarding packets from one local network to another failed. While I first assumed it was a configuration error, the issue was entirely due to the lack of an established ARP table.
 
-### What I have learnt from the project:
-- Subnetting
-  From subnetting alone, I have learnt the static configuration of the network, ensuring that default gateway, IPv4 address, as well as the subnet mask is configured correctly to ensure that both message forwarding for Layer 2 and Layer 3 works accordingly.
-- ARP (Address Resolution Protocol) Table Formation
-  From this project alone, I have to understand how remote devices connected to one another. I have to build the pathway, therefore, before any routing, I ensure that every host sends their packet to the router. this is to ensure the construction of the path for later routing.
-- Troubleshooting
-  From this project alone, I have learnt how to troubleshoot correctly for the layer 2 and layer 3 of OSI Reference Model. From here, I learn that even when everything has a positive feedback from layer 1 and layer 2. I develop the skill to understand that, the ARP pathway is necessary, therefore, I brute force to every hosts to send their packet to the router.
+### Lessons Learned:
+*   **Subnetting:** Mastered static network configuration—ensuring that the default gateway, IPv4 address, and subnet mask are configured correctly so that both Layer 2 and Layer 3 message forwarding work accordingly.
+*   **ARP Table Formation:** Gained an understanding of how remote devices connect to one another. I learned how to build the pathway; therefore, before any routing, I ensure that every host sends an initial packet to the router to guarantee the construction of the path for later routing.
+*   **Troubleshooting:** Developed the skills to troubleshoot Layer 2 and Layer 3 of the OSI Reference Model. I learned that even when everything provides positive feedback at Layer 1 and Layer 2, an established ARP pathway is still necessary. This led to the troubleshooting technique of prompting hosts to send packets to the router to successfully build the network tables.
