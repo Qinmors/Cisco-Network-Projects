@@ -32,3 +32,12 @@ This project is a personal, practical, hands-on lab derived from the theoretical
 *   **Subnetting:** Mastered static network configuration—ensuring that the default gateway, IPv4 address, and subnet mask are configured correctly so that both Layer 2 and Layer 3 message forwarding work accordingly.
 *   **ARP Table Formation:** Gained an understanding of how remote devices connect to one another. I learned how to build the pathway; therefore, before any routing, I ensure that every host sends an initial packet to the router to guarantee the construction of the path for later routing.
 *   **Troubleshooting:** Developed the skills to troubleshoot Layer 2 and Layer 3 of the OSI Reference Model. I learned that even when everything provides positive feedback at Layer 1 and Layer 2, an established ARP pathway is still necessary. This led to the troubleshooting technique of prompting hosts to send packets to the router to successfully build the network tables.
+
+
+---
+
+## LAN Services Project
+
+### Version 1.0 (19th of July, 2026)
+#### Things added to the project:
+
