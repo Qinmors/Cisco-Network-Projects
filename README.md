@@ -40,4 +40,27 @@ This project is a personal, practical, hands-on lab derived from the theoretical
 
 ### Version 1.0 (19th of July, 2026)
 #### Things added to the project:
+- **End Devices** : Adding servers, PCs, and printers in different subnets
+- **Routers** : Critical for routing which allows devices to communicate and access services from server in different subnet.
+- **Switches** : Connecting the routers to the end devices.
 
+### Core Concepts:
+- Understanding the configuration of HTTP service from a server
+- Understanding the configuration of DNS service from servers to allow connection to an HTTP service provided by a server through a domain name.
+- Understanding the configuration of DHCP service from servers to allow DHCP automatic IPv4 address assignment
+- Understanding routing and concepts critical for it, which are, subnetting, default gateway and IPv4 address assignment
+
+### Obstacles faced during the project and Lessons Learnt:
+- **Routing & DHCP Configuration** : The problem I had encountered during the project was the DHCP configuration. Usually, I would use the wirless router that provide simplicity for DHCP service. However, in this project, I decided to use DHCP service through the use of a server. Interestingly, from this experience alone, I had learnt to troubleshoot my routing problem which lies on the default gateway configuration on the servers. I also added DNS service to the server to ensure a successful HTTP connection through domain name system (DNS).
+- **DNS Configuration** : DNS is essential for this project. I aimed for every devices in the subnet to be able  to receive HTTP from the web browser using domain name system, rather than typing IP address of the server that provides HTTP services. In which, this project has taught me the idea of how a network device would receive an HTTP service by using domain name system service from a server.
+- **HTTP Service Configuration** : HTTP configuration here is quite peculiar I would say. In a way. to set it up, it is not a hard task, in which, the problem would be to configure the index.html file. For this problem, I utilize the usage of Artifical Intelligence to build me a chess game, aim to test whether the system packet tracer could run a simple HTML chess game.
+
+### List of Files Attachment:
+<img width="1125" height="629" alt="image" src="https://github.com/user-attachments/assets/a4028549-1db5-4620-881d-fc4ef669315d" />
+Description: This is the overall look of the LAN network system, where subnets divide the network into three departments, which are network, IT, and Servers.
+
+---
+
+https://github.com/user-attachments/assets/1c5c14c9-4141-4b40-82cd-285d985664ec
+
+Description: This video documents the utilities of the DNS service, DHCP service, HTTP service, routing and across network communication. 
