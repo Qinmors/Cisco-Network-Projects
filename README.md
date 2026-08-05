@@ -64,3 +64,9 @@ Description: This is the overall look of the LAN network system, where subnets d
 https://github.com/user-attachments/assets/1c5c14c9-4141-4b40-82cd-285d985664ec
 
 Description: This video documents the utilities of the DNS service, DHCP service, HTTP service, routing and across network communication. 
+
+#Certification and Badges
+
+## Basic Networking at Cisco NetAcademy
+<img width="260" height="260" alt="networking-basics" src="https://github.com/user-attachments/assets/615ad093-79f3-42be-9491-91abe2bf0ec4" />
+
